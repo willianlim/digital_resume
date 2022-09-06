@@ -33,7 +33,7 @@ li {
 	line-height: 1.9em;
 }
 
-#containter__main {
+#container__main {
 	max-width: 700px;
 	margin: 0 auto;
 }
@@ -41,4 +41,51 @@ li {
 #section__page {
 	padding-top: 1em;
 	padding-bottom: 1em;
+}
+
+#wrapper__hero {
+	display: flex;
+	align-items: center;
+	gap: 4em;
+}
+
+#user-name {
+	font-size: 3em;
+	line-height: 1e;
+}
+
+#bio, a {
+	font-weight: 300;
+}
+
+#profile__pic {
+	border-radius: 100%;
+	width: 150px;
+	height: 150px;
+	object-fit: conver;
+}
+
+#email {
+	color: var(--mainTextColor);
+}
+
+#socials__list {
+	display: flex;
+	justify-content: space-between;
+	column-gap: 1em;
+	flex-wrap: wrap;
+}
+
+#socials__list a {
+	font-size: 0.9em;
+	color: var(--secondaryTextColor);
+	transition: 0.2s;
+}
+
+#socials__list a:hover {
+	color: var(--mainLinkColor);
+}
+
+#qualifications__list {
+	list-style: none;
 }
