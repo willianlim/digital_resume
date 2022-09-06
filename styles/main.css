@@ -32,3 +32,13 @@ a {
 li {
 	line-height: 1.9em;
 }
+
+#containter__main {
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+#section__page {
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
