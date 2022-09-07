@@ -101,3 +101,16 @@ li {
 #qualifications__list {
 	list-style: none;
 }
+
+#wrapper__techstack__items {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1em;
+	font-size: 0.9em;
+}
+
+.card__techstack {
+	border: 1px solid var(--mainBorderColor);
+	padding: 0.5em 1em;
+	border-radius: 5px;
+}
