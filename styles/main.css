@@ -141,3 +141,25 @@ li {
 .card__project a:hover {
 	color: var(--mainLinkColor);
 }
+
+@media(max-width:600px) {
+	#wrapper__hero {
+		flex-direction: column;
+		gap: 1em;
+	}
+
+	#profile__pic {
+		width: 200px;
+		height: 200px;
+	}
+
+	.section__page {
+		padding-top: 1em;
+		padding-top: 1em;
+	}
+
+	.card__work__history {
+		border-left: none;
+		padding-left: 0;
+	}
+}
