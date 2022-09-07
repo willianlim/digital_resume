@@ -126,3 +126,18 @@ li {
 	background-color: var(--mainBorderColor);
 	height: 1px;
 }
+
+.card__project {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	border-top: 1px solid var(--mainBorderColor);
+}
+
+.card__project a {
+	color: var(--mainTextColor);
+	transition: .2s;
+}
+
+.card__project a:hover {
+	color: var(--mainLinkColor);
+}
